@@ -1,0 +1,86 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario__title{
+    color: var(--fuente-ceniza-oscuro);
+    font-weight: 900;
+    font-size: 1.5rem;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    text-align: center;
+    
+    padding: 30px;
+}
+
+.formulario .form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.formulario .form label {
+    font-weight: bold;
+    color: rgb(0, 70, 113);
+    margin-bottom: 4px;
+    margin-top: 8px;
+}
+
+.formulario .form input {
+    padding: 10px;
+    border: 0.1px solid #000D1A;
+    margin-bottom: 20px;
+}
+
+.formulario .form textarea {
+    padding: 10px;
+    border: 0.1px solid #000D1A;
+}
+
+.formulario .form input:focus {
+    border: 1px solid #000D1A;
+}
+
+.formulario .form button {
+    width: 80px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0.5px solid #000D1A;
+    color: aliceblue;
+    background-color: #000D1A;
+    font-weight: bold;
+}
+
+.formulario .form button:hover {
+    color: #000D1A;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 0.2px solid #000D1A;
+}
+
+.formulario #trucazo {
+    opacity: 0;
+}
+
+hr{
+    border: 1.5px solid var(--bluetoogle);
+    margin-bottom: 1.25rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .form{
+        width: 900px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .form{
+        width: 95%;
+    }
+}

@@ -1,0 +1,31 @@
+.ir-arriba {
+    display: none;
+    padding: 10px;
+    background-color: var(--bluetoogle);
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border: 0.5px solid #000D1A;
+}
+
+@media (max-width: 600px) {
+    .ir-arriba {
+        display: none;
+        padding: 10px;
+        background-color: var(--bluetoogle);
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        border-radius: 20px;
+        box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        border: 0.5px solid #000D1A;
+    }
+}
